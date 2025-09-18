@@ -79,3 +79,30 @@ main:not(:has(:target)) #Principal {
 section h2 {
     color: rgb(243, 114, 54);
 }
+
+section img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+.card {
+    text-align: center;      /* Centra imagen y texto */
+    max-width: 90%;          /* Ancho máximo */
+    margin: 10px auto;       /* Centrado horizontal con margen arriba */
+    border-radius: 10px;     /* Bordes redondeados */
+    overflow: hidden;        /* Para que bordes redondeados afecten la imagen si se aplica */
+}
+
+.card img {
+    width: 100%;             /* Imagen responsiva */
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Solo bordes superiores redondeados si quieres estilo tarjeta */
+}
+
+.card h4 {
+    margin: 10px 0;          /* Separación del texto */
+    color: #333;             /* Color del texto */
+}
+
