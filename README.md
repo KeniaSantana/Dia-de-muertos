@@ -1,2 +1,2 @@
-# Dia-de-muertos
-Un aspecto cultural de nuestra comunidad
+# Parque Central
+Un aspecto significativo de nuestra ciudad
